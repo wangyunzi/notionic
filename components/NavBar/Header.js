@@ -8,7 +8,7 @@ import {
   HomeIcon,
   NewspaperIcon,
   //   CollectionIcon,
-  SparklesIcon,
+  //   SparklesIcon,
   SearchIcon,
   MenuIcon
 } from '@heroicons/react/outline'
@@ -52,13 +52,13 @@ const NavBar = () => {
     //       icon: <CollectionIcon className='inline-block mb-1 h-5 w-5' />,
     //       show: true
     //     },
-    {
-      id: 3,
-      name: t.NAV.PROJECTS,
-      to: '/projects',
-      icon: <SparklesIcon className='inline-block mb-1 h-5 w-5' />,
-      show: true
-    },
+    //     {
+    //       id: 3,
+    //       name: t.NAV.PROJECTS,
+    //       to: '/projects',
+    //       icon: <SparklesIcon className='inline-block mb-1 h-5 w-5' />,
+    //       show: true
+    //     },
     {
       id: 4,
       name: t.NAV.SEARCH,
