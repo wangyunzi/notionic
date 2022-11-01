@@ -181,8 +181,8 @@ const Header = ({ navBarTitle, fullWidth }) => {
                 <Image
                   src='/favicon.png'
                   alt='Logo'
-                  width={200}
-                  height={200}
+                  width={20}
+                  height={20}
                 />
               </motion.div>
             </a>
