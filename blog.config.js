@@ -2,7 +2,7 @@ const BLOG = {
   title: '云空间',
   author: '王云子',
   email: 'xueq695@gmail.com',
-  link: 'https://law.wangyunzi.com',
+  link: 'https://notionic.wangyunzi.com',
   newsletter: 'Notionic Weekly',
   description: 'Personal law school',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
