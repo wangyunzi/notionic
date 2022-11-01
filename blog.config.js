@@ -1,13 +1,13 @@
 const BLOG = {
-  title: '云空间',
-  author: '王云子',
-  email: 'xueq695@gmail.com',
-  link: 'https://law.wangyunzi.com',
+  title: 'Notionic',
+  author: '左蓝',
+  email: 'i@zuolan.me',
+  link: 'https://zuolan.me',
   newsletter: 'Notionic Weekly',
-  description: 'personal school',
+  description: 'A static blog build on top of Notion and Next.js',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
-  font: 'serif', // ['sans-serif', 'serif']
+  font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#212936', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Notionic in a folder
@@ -21,23 +21,23 @@ const BLOG = {
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://twitter.com/YunziWang',
-    github: 'https://github.com/wangyunzi',
-    telegram: 'https://t.me/YunziWang'
+    twitter: 'https://twitter.com/izuolan',
+    github: 'https://github.com/izuolan',
+    telegram: 'https://t.me/zuolan'
   },
   seo: {
-    keywords: ['Notionic', 'wangyunzi', 'Blog', 'law', 'study'],
+    keywords: ['Notionic', 'Zuolan', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
-  notionDomain: 'wangyunzi.notion.site',
+  notionDomain: 'izuolan.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
-  telegramChatId: '', // The chat id of your Telegram bot
-  telegramChannelUrl: '', // The link of your Telegram channel
-  telegramChannelName: '', // The name of your Telegram channel
-  craftConfigShareUrl: '', // The link to share your craft config
+  telegramChatId: '263895784', // The chat id of your Telegram bot
+  telegramChannelUrl: 'https://channel.zuolan.me/', // The link of your Telegram channel
+  telegramChannelName: 'zuolan_me', // The name of your Telegram channel
+  craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
   analytics: {
     provider: '', // Currently we support Google Analytics, Ackee and Umami, please fill with 'ga' or 'ackee' or 'umami', leave it empty to disable it.
     umamiConfig: {
@@ -57,11 +57,11 @@ const BLOG = {
     // support provider: utterances, supacomments
     provider: '', // leave it empty if you don't need any comment plugin
     supaCommentsConfig: {
-      supabaseUrl: 'https://dhjsnlobgzqgykreipab.supabase.co', // The url of your Supabase instance
-      supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRoanNubG9iZ3pxZ3lrcmVpcGFiIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjcyODI5NTQsImV4cCI6MTk4Mjg1ODk1NH0.5SjTA7XASus40tRnsJYi2ZqSi7WtQcq6VvEGd0t0Y8g' // The anonymous key of your Supabase instance
+      supabaseUrl: '', // The url of your Supabase instance
+      supabaseAnonKey: '' // The anonymous key of your Supabase instance
     },
     utterancesConfig: {
-      repo: 'wangyunzi/notionic'
+      repo: ''
     }
   },
   isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
