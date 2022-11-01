@@ -32,12 +32,12 @@ const BLOG = {
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
-  notionDomain: 'izuolan.notion.site',
+  notionDomain: 'wangyunzi.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
-  telegramChatId: '263895784', // The chat id of your Telegram bot
-  telegramChannelUrl: 'https://channel.zuolan.me/', // The link of your Telegram channel
-  telegramChannelName: 'zuolan', // The name of your Telegram channel
-  craftConfigShareUrl: 'https://www.craft.do/s/8gQSdBtbuPjpp1', // The link to share your craft config
+  telegramChatId: '1833379703', // The chat id of your Telegram bot
+  telegramChannelUrl: '', // The link of your Telegram channel
+  telegramChannelName: '', // The name of your Telegram channel
+  craftConfigShareUrl: '', // The link to share your craft config
   analytics: {
     provider: '', // Currently we support Google Analytics, Ackee and Umami, please fill with 'ga' or 'ackee' or 'umami', leave it empty to disable it.
     umamiConfig: {
@@ -55,10 +55,10 @@ const BLOG = {
   },
   comment: {
     // support provider: utterances, supacomments
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'supacomments', // leave it empty if you don't need any comment plugin
     supaCommentsConfig: {
-      supabaseUrl: '', // The url of your Supabase instance
-      supabaseAnonKey: '' // The anonymous key of your Supabase instance
+      supabaseUrl: 'https://dhjsnlobgzqgykreipab.supabase.co', // The url of your Supabase instance
+      supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRoanNubG9iZ3pxZ3lrcmVpcGFiIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjcyODI5NTQsImV4cCI6MTk4Mjg1ODk1NH0.5SjTA7XASus40tRnsJYi2ZqSi7WtQcq6VvEGd0t0Y8g' // The anonymous key of your Supabase instance
     },
     utterancesConfig: {
       repo: ''
