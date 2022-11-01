@@ -32,7 +32,7 @@ const BLOG = {
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
-  notionDomain: 'izuolan.notion.site',
+  notionDomain: 'wangyunzi.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '5677373506', // The chat id of your Telegram bot
   telegramChannelUrl: '', // The link of your Telegram channel
@@ -55,7 +55,7 @@ const BLOG = {
   },
   comment: {
     // support provider: utterances, supacomments
-    provider: 'supacomments', // leave it empty if you don't need any comment plugin
+    provider: '', // leave it empty if you don't need any comment plugin
     supaCommentsConfig: {
       supabaseUrl: 'https://dhjsnlobgzqgykreipab.supabase.co', // The url of your Supabase instance
       supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRoanNubG9iZ3pxZ3lrcmVpcGFiIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjcyODI5NTQsImV4cCI6MTk4Mjg1ODk1NH0.5SjTA7XASus40tRnsJYi2ZqSi7WtQcq6VvEGd0t0Y8g' // The anonymous key of your Supabase instance
