@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 import {
   HomeIcon,
   NewspaperIcon,
-//   CollectionIcon,
+  //   CollectionIcon,
   SparklesIcon,
   SearchIcon,
   MenuIcon
@@ -44,13 +44,13 @@ const NavBar = () => {
       icon: <NewspaperIcon className='inline-block mb-1 h-5 w-5' />,
       show: BLOG.showNewsletter
     },
-//     {
-//       id: 2,
-//       name: t.NAV.NOTES,
-//       to: '/notes',
-//       icon: <CollectionIcon className='inline-block mb-1 h-5 w-5' />,
-//       show: true
-//     },
+    //     {
+    //       id: 2,
+    //       name: t.NAV.NOTES,
+    //       to: '/notes',
+    //       icon: <CollectionIcon className='inline-block mb-1 h-5 w-5' />,
+    //       show: true
+    //     },
     {
       id: 3,
       name: t.NAV.PROJECTS,
